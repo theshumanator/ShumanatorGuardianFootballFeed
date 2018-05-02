@@ -1,0 +1,68 @@
+<resources>
+    <!--overall app strings-->
+    <string name="app_name">Shumanator Guardian Football Feed</string>
+    <!--error specific strings-->
+    <string name="no_internet">No internet connection! Pls ensure wifi/data is on
+        and airplane mode is off then restart the application. If after connecting
+        and restarting the problem persists, contact support on support@shumanator.com</string>
+    <string name="no_news">No football news on the Guardian at the moment. Try
+        restarting the application to refresh. If the problem persists, contact
+        support on: support@shumanator.com</string>
+
+    <!--queryutils strings-->
+    <string name="json_response_tag">response</string>
+    <string name="json_results_tag">results</string>
+    <string name="json_tags_tag">tags</string>
+    <string name="json_section_tag">sectionName</string>
+    <string name="json_webTitle_tag">webTitle</string>
+    <string name="json_webPublicationDate_tag">webPublicationDate</string>
+    <string name="json_webUrl_tag">webUrl</string>
+    <string name="json_type_tag">type</string>
+    <string name="json_contributor_tag">contributor</string>
+    <string name="author_unavailable">Author unavailable</string>
+    <string name="get_request_method">GET</string>
+    <string name="connect_timeout">15000</string>
+    <string name="read_timeout">10000</string>
+
+    <!--footballfeedactivity strings-->
+    <string name="base_url">https://content.guardianapis.com/search?</string>
+    <string name="query">q</string>
+    <string name="query_football">football</string>
+    <string name="query_api_key">api-key</string>
+    <string name="query_api_key_values">test</string>
+    <string name="query_show_tags">show-tags</string>
+    <string name="query_contributor">contributor</string>
+    <string name="query_order_by">order-by</string>
+    <string name="query_page_size">page-size</string>
+    <string name="query_section">section</string>
+    <string name="query_format">format</string>
+    <string name="query_json">json</string>
+
+    <!--preference specific strings-->
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">Football Feed Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!--Order by Preference specific string-->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+
+    <!--filter by football section-->
+    <string name="settings_filter_by_football_label">Only news in the football section?</string>
+    <string name="settings_filter_by_football_key" translatable="false">section</string>
+    <string name="settings_filter_by_football_default">true</string>
+
+    <!--max number of news preference strings-->
+    <string name="settings_max_news_label">Max Number of headlines to fetch (Range 1-50)</string>
+    <string name="settings_max_news_key" translatable="false">page-size</string>
+    <string name="settings_max_news_default" translatable="false">10</string>
+    <string name="min_page_size">1</string>
+    <string name="max_page_size">50</string>
+</resources>
